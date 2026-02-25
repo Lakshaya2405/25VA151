@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //JS Variable data types
+        // Primitive data types:string,number,boolean,null,undefined,symbol
+        // non primitive data types:array,object,function  
+        //string
+        let name="abes";
+        console.log(name);
+        console.log(typeof(name));
+        
+        //number
+        let myCot="96748595944";
+        console.log(myCot);
+        console.log(typeof(myCot));
+        
+        //boolean
+        let courseDone=false;
+        console.log(courseDone);
+        console.log(typeof(courseDone));
+
+        //null
+        let add=null;
+        console.log(add);
+        console.log(typeof(add));
+
+        //undefined
+        let email;
+        console.log(email);
+        console.log(typeof(email));
+
+        //bigint
+        let bigamount=BigInt(123456789012345678901234567890);
+        console.log(bigamount);
+        console.log(typeof(bigamount));
+
+        //symbol
+        //symbols are immutable and unique.
+        let val1=Symbol();
+        let val2=Symbol();
+        console.log(val1==val2);
+        console.log(typeof(val1));
+
+        //non-primitive data type
+        //object{},function() and array[]
+        //object
+        let myObject={
+            name:"abes",
+            age:20,
+            email:"abes@gmail.com",
+            address:null
+        };
+        console.log(myObject);
+        console.log(myObject.email);
+        console.log(typeof(myObject));
+
+        //function
+        function hello(){
+            let myName="LAKSHAYA";
+            console.log(myName);
+            console.log(typeof(hello));
+        }
+        hello();
+
+        //array
+        let myArray=[1,2,3,4,5];
+        console.log(myArray[0]);
+        console.log(typeof(myArray));
+        </script>
+</body>
+</html>
