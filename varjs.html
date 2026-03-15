@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // JS Variable data type
+        //Primitive data types : string ,number,boolean,null,undefined,symbol
+        // Non Primitive data types : object ,array ,function
+
+        //string
+        var name="ABES";
+        console.log(name);
+        console.log(typeof(name));
+
+        //number
+
+        let myCont=7834957594
+        console.log(myCont);
+        console.log(typeof(myCont));
+
+        //boolean
+
+        let courseDone= false;
+        console.log(courseDone);
+        console.log(typeof(courseDone));
+
+        //null
+
+        let add=null;
+        console.log(add);
+        console.log(typeof(add));
+
+        // undefined
+
+        let email;
+        console.log(email);
+        console.log(typeof(email));
+
+        //Bigint
+
+        let bigamount =BigInt(14525343728282625242793534);
+        console.log(bigamount);
+        console.log(typeof(bigamount));
+
+        // Symbol - A unique primitive identifier
+
+        let val1= Symbol('HELLO');
+        let val2= Symbol('HELLO');
+        console.log(val1==val2);
+        console.log(typeof(val1));
+
+        // Refrence or Non-Primitive - defined in pair  i.e Key and Value
+        // object {}, function(),and array[]
+
+        let myInfo={
+            name:"chikoo",
+            mob:7834957594,
+            isMarried:false,
+            eMail:"kumarlakshaya968@gmail.com",
+            address:null
+        }
+        console.log(myInfo);
+        console.log(myInfo.eMail);
+        function hello(){
+            let MyName ="abes";
+            console.log(MyName);
+            console.log(typeof(MyName));
+        }
+        hello();
+
+        // array
+
+        let students=["name1","name2","name3"];
+        console.log(students);
+        console.log(typeof(students));
+    </script>
+</body>
+</html>
